@@ -1,0 +1,43 @@
+/*  TODAS ID HTML REGISTRADAS EM CSS SÃO REPRESENTADAS COM #  
+    E TODAS AS CLASS EM HTML SÃO REPRESENTADAS COM .
+*/
+
+@charset "UTF-8";
+
+body{
+
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+
+    color: rgb(16, 92, 75)
+}
+
+h1#principal {
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+}
+
+h2{
+
+    color:  rgb(16, 92, 75);
+}
+
+.basico {
+    color: chartreuse;
+}
+
+.intermediario {
+    color: rgb(208, 255, 0);;
+}
+
+.avançado{
+    color: rgb(255, 0, 0);;
+}
+
+.destaque{
+    background-color: rgba(202, 202, 72, 0.452);
+}
