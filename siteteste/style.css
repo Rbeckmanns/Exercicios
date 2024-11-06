@@ -47,6 +47,7 @@ h1{
     
     
     
+    
 }
 
 div.barra:hover{
@@ -64,14 +65,19 @@ a:visited{
     font-family: "Montserrat";
     display: block;
     background-color: rgba(84, 91, 119, 0.212);
-    height: auto;
-    width: auto;
     font-size: 8px;
     border-radius: 1% solid #000000;
     border-color: #000000;
     text-align: center;
     box-sizing: border-box;
-    padding: 30px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 0px;
+    border-radius: 150px;
+    box-shadow: 5px 5px 20px #00000060;
+    border-style: initial;
 }
 
 .redes{
@@ -87,4 +93,13 @@ a:visited{
     right: 0%;
     left: 50px;
     bottom: 5px;
+}
+
+h1.conteudo{
+    font-weight: normal;
+}
+
+.rodape > h2{
+    font-weight: normal;
+    font-size: 10px;
 }
