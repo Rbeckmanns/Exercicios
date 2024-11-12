@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Fancy';
+    src: url(../fontes/ImperialScript-Regular.ttf);
+    font-weight: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor0:#9E999F;
+    --cor1:#DFD8E0;
+    --cor2:#b3a99a42;
+    --cor3:#B99E8C;
+    --cor4:#E9DED7;
+   
+
+    --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:"Bebas Neue", sans-serif;
+    --font-BebasNeue-Regular:"Fancy"
+}
+
+header{
+    background-color: var(--cor1);
+    height: 150px;
+    text-align: center;
+    padding-top: 40px;;
+}
+
+header > p  {
+text-align: center;
+font-family: var(--font-BebasNeue-Regular);
+font-size: 30px;
+padding: 20px;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: var(--font-BebasNeue-Regular);
+    font-size: 50px;
+}
+
+nav{
+    background-color:var(--cor0);
+    text-align: center;
+    padding: 20px;
+    word-spacing: 20px;
+    font-size: 18px;
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+    
+}
+
+a:hover{
+    background-color: #0b313827;
+}
+
+a{
+    text-decoration: none;
+}
+
+main {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    background-color:var(--cor2);
+    margin: 5px 500px 50px 500px;
+    padding: 10px;
+}
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonte-padrao);
+}
+
+
+main h1{
+    font-family: var(--font-BebasNeue-Regular);
+    padding: 20px;
+}
+
+
+main h1{
+    text-align: center;
+    font-size: 50px
+    ;
+}
+
+main h2{
+    font-family: var(--font-BebasNeue-Regular);
+}
+
+main h3{
+    font-family: var(--font-BebasNeue-Regular);
+}
+
+img{
+    position: absolute;
+    top: -25px; /* move a imagem 20px para baixo */
+    left: 250px; /* move a imagem 30px para a direita */
+    right: 1000px;
+    bottom: -15px;
+}
+
+
