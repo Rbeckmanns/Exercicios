@@ -75,6 +75,9 @@ main {
 body{
     background-color: var(--cor1);
     font-family: var(--fonte-padrao);
+    height: 98vh;
+    background-image: url('imagens/pattern003.png');
+    background-position: center center;
 }
 
 
