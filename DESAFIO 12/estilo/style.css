@@ -14,6 +14,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-size: 2vw;
 }
 
 html, body {
@@ -68,6 +69,7 @@ section.imagem{
     background-color:rgba(0, 0, 0, 0.219);
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.397);
+    background-attachment: fixed; /*EFEITO PARALLAX*/
 
 }
 
